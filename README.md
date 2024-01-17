@@ -19,6 +19,7 @@
 | chore | 위의 경우에 포함되지 않는 경우 |
 
 <br />
+
 ### ✔️ 브랜치 전략
 - Git-flow 전략을 기반으로 master, develop 브랜치와 feature 보조 브랜치를 운용
 - master, develop, Feat 브랜치로 나누어 개발
@@ -29,9 +30,10 @@
     - **refactor** # 새로운 기능이나 현재 구현 개선
 
 <br />
+
 ### ✔️ 협업 툴
-Figma : 초반 기획시 빠른 레이아웃을 잡기 위해 사용
-Notion : 팀 페이지, 스크럼 정리, 문서 정리
-Discord : 팀원간 커뮤니케이션, 코드리뷰를 위해 사용
-Gitlab : Code Repository
+- Figma : 초반 기획시 빠른 레이아웃을 잡기 위해 사용
+- Notion : 팀 페이지, 스크럼 정리, 문서 정리
+- Discord : 팀원간 커뮤니케이션, 스크럼, 코드리뷰를 위해 사용
+- Gitlab : Code Repository
 
