@@ -1,6 +1,10 @@
 # 📘 여기다: "소중한 순간을 기록하는 여행 다이어리 서비스"
 ![Group 414 (1)](https://github.com/hayuuna/Yogida/assets/144312023/68d38773-9b6d-42f6-a576-7cc4206a4df7)
 
+## 📍 시연영상
+https://www.youtube.com/watch?v=z89OTFZoPAA
+
+<br />
 
 ## 📍 프로젝트 주제 기획
 ![ppt](https://github.com/hayuuna/Yogida/assets/144312023/44f35e79-efb0-4de4-a5c1-6e122d271e29)
