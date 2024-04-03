@@ -52,14 +52,14 @@ API, 데이터베이스 <img src="https://img.shields.io/badge/postman-FF6C37?st
 - 날짜별로 코스와 장소가 순서대로 보여집니다.
 - 장소별로 거리가 제공됩니다.
 
-✅ 카카오맵 지도
+✅ 카카오맵 지도
 
 ![ezgif com-video-to-gif-converter (8)](https://github.com/hayuuna/Yogida/assets/144312023/2cacf4e1-860c-45c6-924f-292957e6d4ec)
 
 - 개별 장소 클릭시 상세한 장소가 보여집니다.
 - 상제 장소 마커 클릭시 카카오맵 지도로 연결됩니다.
 
-✅ 댓글 및 대댓글
+✅ 댓글 및 대댓글
 
 ![ezgif com-video-to-gif-converter (9)](https://github.com/hayuuna/Yogida/assets/144312023/1421465f-0f9b-4658-9000-9708b343a2ca)
 
