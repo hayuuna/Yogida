@@ -1,44 +1,70 @@
-# 📘 여기다: "소중한 순간을 기록하는 여행 다이어리 서비스"
+# 여기다 v1.0
+## ⭐️ 서비스 소개
+
 ![Group 414 (1)](https://github.com/hayuuna/Yogida/assets/144312023/68d38773-9b6d-42f6-a576-7cc4206a4df7)
 
-## 📍 시연영상
-https://www.youtube.com/watch?v=z89OTFZoPAA
+✈️ 여행 기록을 공유하는 웹 애플리케이션 ✈️
+
+시연영상 : https://www.youtube.com/watch?v=z89OTFZoPAA
+
+프론트엔드 <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=flat&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/react query-FF4154?style=flat&logo=reactquery&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=flat&logo=recoil&logoColor=white"> 
+
+API, 데이터베이스 <img src="https://img.shields.io/badge/postman-FF6C37?style=flat&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/mongodb-47A248?style=flat&logo=mongodb&logoColor=white"> 
+
+
+
+협업툴 <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/discord-5865F2?style=flat&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=flat&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FC6D26?style=flat&logo=gitlab&logoColor=white"> 
+
+## ⭐️ 주요 기능
+
+✔️ 메인 페이지
+
+![메인페이지](https://github.com/hayuuna/Yogida/assets/144312023/e2bd4fef-c98d-494d-b0e2-735791b2d223)
+
+- 유저들이 등록한 여행 기록 게시글들이 모두 보여집니다.
+- 여행 정보를 간략하게 보여집니다.
+- 여행지 등록시 등록했던 이미지 대표 5개가 이미지 슬라이드로 보여집니다.
+
+
+✅ 필터, 검색
+
+![ezgif com-video-to-gif-converter (3)](https://github.com/hayuuna/Yogida/assets/144312023/36c88161-7619-4062-81dc-3f924e8dbe4b)
+
+- 여행지 등록시 사용했던 필터와 지역명으로 검색이 가능합니다.
+- 최근 검색어 최대 5개까지 제공합니다.
+- 게시글 정렬이 가능합니다.
+
+✅ 좋아요
+
+![ezgif com-video-to-gif-converter (5)](https://github.com/hayuuna/Yogida/assets/144312023/b90d015c-53d6-46b0-b0fd-9cddd6f06c3e)
+
+- 마음에 드는 여행지 코스를 좋아요 버튼을 눌러 저장 및 저장 취소가 가능합니다.
 
 <br />
 
-## 📍 프로젝트 주제 기획
-![ppt](https://github.com/hayuuna/Yogida/assets/144312023/44f35e79-efb0-4de4-a5c1-6e122d271e29)
 
-### ✔️ 커밋 컨벤션
-| 컨벤션 | 기능 |
-| --- | --- |
-| feat | 새로운 기능을 추가한 경우 |
-| fix | 버그를 고친 경우 |
-| design | CSS 등 사용자 UI 디자인을 변경한 경우 |
-| refactor | 프로덕션 코드 리팩토링의 경우 (새로운 기능이나 버그 수정 없이 현재 구현을 개선) |
-| docs | 문서를 수정한 경우 |
-| comment | 필요한 주석 추가 및 변경의 경우 |
-| test | 테스트 코드를 추가한 경우 |
-| remove | 파일을 삭제한 경우 |
-| move | 파일 위치를 변경한 경우 |
-| chore | 위의 경우에 포함되지 않는 경우 |
+✔️ 상세 페이지
 
-<br />
+![ezgif com-video-to-gif-converter (7)](https://github.com/hayuuna/Yogida/assets/144312023/51a17f84-8d70-4c67-9194-739100e4738d)
 
-### ✔️ 브랜치 전략
-- Git-flow 전략을 기반으로 master, develop 브랜치와 feature 보조 브랜치를 운용
-- master, develop, Feat 브랜치로 나누어 개발
-    - **master** # 배포 단계에서만 사용
-    - **dev** # 개발 단계에서 git-flow의 master 역할
-    - **feat** # 기능 단위로 독립적인 개발 환경을 위하여 사용
-    - **fix** # 버그 수정
-    - **refactor** # 새로운 기능이나 현재 구현 개선
+- 게시글 주소 복사가 가능합니다.
+- 마음에 드는 여행지 코스를 좋아요 버튼을 눌러 저장 및 저장 취소가 가능합니다. (메인페이지 좋아요 기능과 같음)
+- 날짜별로 코스와 장소가 순서대로 보여집니다.
+- 장소별로 거리가 제공됩니다.
 
-<br />
+✅ 카카오맵 지도
 
-### ✔️ 협업 툴
-- Figma : 초반 기획시 빠른 레이아웃을 잡기 위해 사용
-- Notion : 팀 페이지, 스크럼 정리, 문서 정리
-- Discord : 팀원간 커뮤니케이션, 스크럼, 코드리뷰를 위해 사용
-- Gitlab : Code Repository
+![ezgif com-video-to-gif-converter (8)](https://github.com/hayuuna/Yogida/assets/144312023/2cacf4e1-860c-45c6-924f-292957e6d4ec)
+
+- 개별 장소 클릭시 상세한 장소가 보여집니다.
+- 상제 장소 마커 클릭시 카카오맵 지도로 연결됩니다.
+
+✅ 댓글 및 대댓글
+
+![ezgif com-video-to-gif-converter (9)](https://github.com/hayuuna/Yogida/assets/144312023/1421465f-0f9b-4658-9000-9708b343a2ca)
+
+- 로그인 한 유저는 댓글 및 대댓글 작성이 가능합니다.
+- 본인이 작성한 댓글은 수정, 삭제가 가능합니다.
+- 대댓글은 접거나 펼칠 수 있습니다.
+
 
