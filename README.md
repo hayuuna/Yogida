@@ -4,8 +4,14 @@
 ![Group 414 (1)](https://github.com/hayuuna/Yogida/assets/144312023/68d38773-9b6d-42f6-a576-7cc4206a4df7)
 
 ✈️ 여행 기록을 공유하는 웹 애플리케이션 ✈️
+- **여행 일정 공유**: 전체 여행 일정을 타임라인으로 간편하게 보여줍니다.
+- **여행 코스 기록:** 사용자는 자신의 여행 경험을 기록합니다.
+- **지도 위치 표시:** 플랫폼은 사용자가 기록한 여행 코스의 각 지점을 정확한 지도상 위치와 함께 시각적으로 제시합니다.
+- **여행지 및 여행 코스 즐겨찾기:** 사용자는 다양한 여행지와 코스를 찜하기 기능을 통해 즐겨찾는 목록에 담아둘 수 있습니다.
 
-시연영상 : https://www.youtube.com/watch?v=z89OTFZoPAA
+[피그마 바로가기](https://www.figma.com/file/jDDQBpvGEhXVKGvgZ4L28T/%5B%EC%97%AC%EA%B8%B0%EB%8B%A4%5D-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85?type=design&node-id=0%3A1&mode=design&t=YqkM2QjziZhWCN7s-1)
+[기록 보기](https://zigzag-laser-8a9.notion.site/3a6e030ead374fa496a991f6c5d38b91)
+[시연영상 유튜브](https://www.youtube.com/watch?v=z89OTFZoPAA)
 
 프론트엔드 <img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=flat&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=flat&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/react query-FF4154?style=flat&logo=reactquery&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=flat&logo=recoil&logoColor=white"> 
 
