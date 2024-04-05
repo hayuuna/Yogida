@@ -17,7 +17,7 @@
 
 API, 데이터베이스 <img src="https://img.shields.io/badge/postman-FF6C37?style=flat&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/mongodb-47A248?style=flat&logo=mongodb&logoColor=white"> 
 
-
+ECT <img src="https://img.shields.io/badge/eslint-4B32C3?style=flat&logo=eslint&logoColor=white"> <img src="https://img.shields.io/badge/prettier-F7B93E?style=flat&logo=prettier&logoColor=white">
 
 협업툴 <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/discord-5865F2?style=flat&logo=discord&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=flat&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FC6D26?style=flat&logo=gitlab&logoColor=white"> 
 
@@ -38,7 +38,86 @@ API, 데이터베이스 <img src="https://img.shields.io/badge/postman-FF6C37?st
 | - 마음에 드는 여행지 코스를 좋아요 버튼을 눌러 저장 및 저장 취소가 가능합니다. | - 상제 장소 마커 클릭시 카카오맵 지도로 연결됩니다. | - 본인이 작성한 댓글은 수정, 삭제가 가능합니다. | 
 | - 날짜별로 코스와 장소가 순서대로 보여지고 장소별 거리가 제공됩니다. | | - 대댓글은 접거나 펼칠 수 있습니다. |
 
+## ⭐️ 사용 방법
+1. 레포지토리를 클론하고자 하는 디렉토리에서 아래 명령어를 수행
 
+```
+git clone https://github.com/hayuuna/Yogida.git
+```
+
+<br />
+
+2. 클론한 디렉토리에서 server 디렉토리로 들어가 아래 명령어를 통해 server에서 필요한 module 설치
+```
+yarn
+```
+
+<br />
+
+
+3. server에서 필요한 dotenv 설정
+- server/.env.development을 open
+- 아래 설명에 따라 환경변수 설정
+```
+# 서버 관련
+SERVER_PORT=[백엔드 서버 PORT]
+CLIENT_URI=[클라이언트 URI]
+
+# DB 관련
+MONGO_HOST=[데이터베이스 서버 HOST]
+
+# 카카오 로그인 관련
+REST_API_KEY=[카카오톡 API KEY]
+APP_ADMIN_KEY=[카카오톡 ADMIN KEY]
+REDIRECT_URI=[카카오톡 REDIRECT URL]
+
+# JWT 관련
+JWT_SECRET_KEY=[JWT 발급 시 사용할 Secret Key]
+JWT_EXPIRES_SEC=[JWT 만료시간]
+
+# 이메일 인증번호 보내기
+GOOGLE_APP_KEY=[GOOGLE APP KEY]
+# 보내는 이메일
+SENDER_EMAIL=[EMAIL]
+
+# bcrypt 관련
+SALT_ROUNDS=[bcrypt 해싱 알고리즘에서 사용되는 라운드 수]
+
+APP_ADMIN_KEY=[애플리케이션 관리자 키]
+```
+
+- Kakao Application이 존재하지 않을 경우 로그인을 할 수 없습니다.
+- Application을 등록하려면 아래 사이트를 참고바랍니다.
+- [Kakao Developers](https://developers.kakao.com/console/app)
+
+<br />
+
+4. 클론한 디렉토리에서 client 디렉토리로 들어가 아래 명령어를 통해 client에서 필요한 module 설치
+```
+yarn
+```
+
+<br />
+
+5. client에서 필요한 dotenv 설정
+- client/.env을 open
+- 아래 설명에 따라 환경변수 설정
+```
+VITE_BACKEND_URL=[백엔드 URI]
+VITE_APP_KAKAO_MAP_KEY=[카카오톡 API KEY]
+```
+
+<br />
+
+6. (데이터베이스 서버가 켜져있다고 가정하고) 두 개의 터미널을 가동한 후, 각 터미널에서 다음의 절차 수행
+- [터미널1] server 디렉토리로 이동 후 아래 명령어 수행
+```
+yarn dev
+```
+- [터미널1] client 디렉토리로 이동 후 아래 명령어 수행
+```
+yarn dev
+```
 
 
 
